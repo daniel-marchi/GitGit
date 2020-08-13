@@ -2,14 +2,20 @@
 
 namespace GitGit
 {
+
     class Program
     {
         static void Main(string[] args)
         {
+        
             var tuco = new Arthur();
-            {
-                tuco.Assistir();
-            } 
+            var willy = new Baleia();
+
+            willy.Voar();
+            tuco.Assistir();
+            
+            Console.WriteLine("Hello World!");
+
         }
     }
 }
